@@ -29,7 +29,8 @@ The output consists of nn lines. Each line contains either a single integer hold
 
 
 
-Sample Input 1
+#### Sample Input 1
+
 3
 2 5
 0 2
@@ -46,7 +47,7 @@ Sample Input 1
 5 5
 
 
-Sample Output 1
+#### Sample Output 1
 
 not possible
 10
