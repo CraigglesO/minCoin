@@ -30,8 +30,6 @@ int main()
         cin >> coins[i][0] >> coins[i][1];
       }
 
-
-
       // Compute minimum coins required for all
       // values from 1 to V
       for (int j = 0; j < v; j++){
@@ -48,7 +46,6 @@ int main()
         }
       }
 
-
       int solution = INF;
       for (i = 0; i < sv.size(); i += 2){
         if (cMap[sv[i]][sv[i+1]] < solution){
@@ -56,17 +53,12 @@ int main()
         }
       }
 
-
-
-
       if (solution == INF)
         cout << "not possible" << endl;
       else
         cout << solution << endl;
 
     }
-
-
 
     return 0;
 }
